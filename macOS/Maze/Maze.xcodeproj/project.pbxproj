@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069A5A5C1F7933E0000FA3CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 069A5A5B1F7933E0000FA3CC /* main.cpp */; };
+		069A5A641F7933F5000FA3CC /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069A5A631F7933F5000FA3CC /* GLUT.framework */; };
+		069A5A661F7933FA000FA3CC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069A5A651F7933FA000FA3CC /* OpenGL.framework */; };
+		069A5A6A1F79368A000FA3CC /* SOIL.c in Sources */ = {isa = PBXBuildFile; fileRef = 069A5A691F79368A000FA3CC /* SOIL.c */; };
+		069A5A6B1F7936A5000FA3CC /* SOIL.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 069A5A671F7934BB000FA3CC /* SOIL.h */; };
+		069A5A6D1F7936CF000FA3CC /* stb_image_aug.c in Sources */ = {isa = PBXBuildFile; fileRef = 069A5A6C1F7936CF000FA3CC /* stb_image_aug.c */; };
+		069A5A6F1F7936E2000FA3CC /* stb_image_aug.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 069A5A6E1F7936E2000FA3CC /* stb_image_aug.h */; };
+		069A5A731F793705000FA3CC /* stbi_DDS_aug.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 069A5A721F793705000FA3CC /* stbi_DDS_aug.h */; };
+		069A5A771F793717000FA3CC /* image_helper.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 069A5A751F793717000FA3CC /* image_helper.h */; };
+		069A5A7A1F793741000FA3CC /* image_DXT.c in Sources */ = {isa = PBXBuildFile; fileRef = 069A5A781F793740000FA3CC /* image_DXT.c */; };
+		069A5A7B1F793741000FA3CC /* image_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 069A5A791F793741000FA3CC /* image_helper.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		069A5A561F7933E0000FA3CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		069A5A581F7933E0000FA3CC /* Maze */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Maze; sourceTree = BUILT_PRODUCTS_DIR; };
+		069A5A5B1F7933E0000FA3CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		069A5A631F7933F5000FA3CC /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		069A5A651F7933FA000FA3CC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		069A5A671F7934BB000FA3CC /* SOIL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SOIL.h; path = "../../Downloads/Simple OpenGL Image Library 2/src/SOIL.h"; sourceTree = "<group>"; };
+		069A5A691F79368A000FA3CC /* SOIL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SOIL.c; sourceTree = "<group>"; };
+		069A5A6C1F7936CF000FA3CC /* stb_image_aug.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stb_image_aug.c; sourceTree = "<group>"; };
+		069A5A6E1F7936E2000FA3CC /* stb_image_aug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stb_image_aug.h; path = "../../Downloads/Simple OpenGL Image Library 2/src/stb_image_aug.h"; sourceTree = "<group>"; };
+		069A5A701F7936F7000FA3CC /* stbi_DDS_aug_c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stbi_DDS_aug_c.h; path = "../../Downloads/Simple OpenGL Image Library 2/src/stbi_DDS_aug_c.h"; sourceTree = "<group>"; };
+		069A5A721F793705000FA3CC /* stbi_DDS_aug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stbi_DDS_aug.h; path = "../../Downloads/Simple OpenGL Image Library 2/src/stbi_DDS_aug.h"; sourceTree = "<group>"; };
+		069A5A741F793717000FA3CC /* image_DXT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = image_DXT.h; path = "../../Downloads/Simple OpenGL Image Library 2/src/image_DXT.h"; sourceTree = "<group>"; };
+		069A5A751F793717000FA3CC /* image_helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = image_helper.h; path = "../../Downloads/Simple OpenGL Image Library 2/src/image_helper.h"; sourceTree = "<group>"; };
+		069A5A781F793740000FA3CC /* image_DXT.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = image_DXT.c; sourceTree = "<group>"; };
+		069A5A791F793741000FA3CC /* image_helper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = image_helper.c; sourceTree = "<group>"; };
+		069A5A7C1F79379B000FA3CC /* file.maz */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file.maz; sourceTree = "<group>"; };
+		069A5A7E1F79379B000FA3CC /* door.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door.png; sourceTree = "<group>"; };
+		069A5A801F79379B000FA3CC /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		069A5A811F79379B000FA3CC /* down.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = down.jpg; sourceTree = "<group>"; };
+		069A5A821F79379B000FA3CC /* front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = front.jpg; sourceTree = "<group>"; };
+		069A5A831F79379B000FA3CC /* left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = left.jpg; sourceTree = "<group>"; };
+		069A5A841F79379B000FA3CC /* right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = right.jpg; sourceTree = "<group>"; };
+		069A5A851F79379B000FA3CC /* up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = up.jpg; sourceTree = "<group>"; };
+		069A5A861F79379B000FA3CC /* T1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T1.png; sourceTree = "<group>"; };
+		069A5A871F79379B000FA3CC /* T2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T2.png; sourceTree = "<group>"; };
+		069A5A881F79379B000FA3CC /* T3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T3.png; sourceTree = "<group>"; };
+		069A5A891F79379B000FA3CC /* wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		069A5A551F7933E0000FA3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069A5A771F793717000FA3CC /* image_helper.h in Frameworks */,
+				069A5A731F793705000FA3CC /* stbi_DDS_aug.h in Frameworks */,
+				069A5A6F1F7936E2000FA3CC /* stb_image_aug.h in Frameworks */,
+				069A5A6B1F7936A5000FA3CC /* SOIL.h in Frameworks */,
+				069A5A661F7933FA000FA3CC /* OpenGL.framework in Frameworks */,
+				069A5A641F7933F5000FA3CC /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069A5A4F1F7933E0000FA3CC = {
+			isa = PBXGroup;
+			children = (
+				069A5A7C1F79379B000FA3CC /* file.maz */,
+				069A5A7D1F79379B000FA3CC /* Textures */,
+				069A5A781F793740000FA3CC /* image_DXT.c */,
+				069A5A791F793741000FA3CC /* image_helper.c */,
+				069A5A6C1F7936CF000FA3CC /* stb_image_aug.c */,
+				069A5A691F79368A000FA3CC /* SOIL.c */,
+				069A5A5A1F7933E0000FA3CC /* Maze */,
+				069A5A591F7933E0000FA3CC /* Products */,
+				069A5A621F7933F5000FA3CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		069A5A591F7933E0000FA3CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				069A5A581F7933E0000FA3CC /* Maze */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		069A5A5A1F7933E0000FA3CC /* Maze */ = {
+			isa = PBXGroup;
+			children = (
+				069A5A5B1F7933E0000FA3CC /* main.cpp */,
+			);
+			path = Maze;
+			sourceTree = "<group>";
+		};
+		069A5A621F7933F5000FA3CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				069A5A741F793717000FA3CC /* image_DXT.h */,
+				069A5A751F793717000FA3CC /* image_helper.h */,
+				069A5A721F793705000FA3CC /* stbi_DDS_aug.h */,
+				069A5A701F7936F7000FA3CC /* stbi_DDS_aug_c.h */,
+				069A5A6E1F7936E2000FA3CC /* stb_image_aug.h */,
+				069A5A671F7934BB000FA3CC /* SOIL.h */,
+				069A5A651F7933FA000FA3CC /* OpenGL.framework */,
+				069A5A631F7933F5000FA3CC /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		069A5A7D1F79379B000FA3CC /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				069A5A7E1F79379B000FA3CC /* door.png */,
+				069A5A7F1F79379B000FA3CC /* skyboxTexture */,
+				069A5A861F79379B000FA3CC /* T1.png */,
+				069A5A871F79379B000FA3CC /* T2.png */,
+				069A5A881F79379B000FA3CC /* T3.png */,
+				069A5A891F79379B000FA3CC /* wall.png */,
+			);
+			path = Textures;
+			sourceTree = "<group>";
+		};
+		069A5A7F1F79379B000FA3CC /* skyboxTexture */ = {
+			isa = PBXGroup;
+			children = (
+				069A5A801F79379B000FA3CC /* back.jpg */,
+				069A5A811F79379B000FA3CC /* down.jpg */,
+				069A5A821F79379B000FA3CC /* front.jpg */,
+				069A5A831F79379B000FA3CC /* left.jpg */,
+				069A5A841F79379B000FA3CC /* right.jpg */,
+				069A5A851F79379B000FA3CC /* up.jpg */,
+			);
+			path = skyboxTexture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		069A5A571F7933E0000FA3CC /* Maze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069A5A5F1F7933E0000FA3CC /* Build configuration list for PBXNativeTarget "Maze" */;
+			buildPhases = (
+				069A5A541F7933E0000FA3CC /* Sources */,
+				069A5A551F7933E0000FA3CC /* Frameworks */,
+				069A5A561F7933E0000FA3CC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Maze;
+			productName = Maze;
+			productReference = 069A5A581F7933E0000FA3CC /* Maze */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		069A5A501F7933E0000FA3CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Dinos Lampropoulos";
+				TargetAttributes = {
+					069A5A571F7933E0000FA3CC = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 069A5A531F7933E0000FA3CC /* Build configuration list for PBXProject "Maze" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 069A5A4F1F7933E0000FA3CC;
+			productRefGroup = 069A5A591F7933E0000FA3CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				069A5A571F7933E0000FA3CC /* Maze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		069A5A541F7933E0000FA3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069A5A7A1F793741000FA3CC /* image_DXT.c in Sources */,
+				069A5A7B1F793741000FA3CC /* image_helper.c in Sources */,
+				069A5A6D1F7936CF000FA3CC /* stb_image_aug.c in Sources */,
+				069A5A6A1F79368A000FA3CC /* SOIL.c in Sources */,
+				069A5A5C1F7933E0000FA3CC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		069A5A5D1F7933E0000FA3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		069A5A5E1F7933E0000FA3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		069A5A601F7933E0000FA3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		069A5A611F7933E0000FA3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		069A5A531F7933E0000FA3CC /* Build configuration list for PBXProject "Maze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069A5A5D1F7933E0000FA3CC /* Debug */,
+				069A5A5E1F7933E0000FA3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		069A5A5F1F7933E0000FA3CC /* Build configuration list for PBXNativeTarget "Maze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069A5A601F7933E0000FA3CC /* Debug */,
+				069A5A611F7933E0000FA3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 069A5A501F7933E0000FA3CC /* Project object */;
+}
